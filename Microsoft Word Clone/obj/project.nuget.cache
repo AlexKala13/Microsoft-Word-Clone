@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pnwglYWKDzSit31x29GORrBfVTQd/vIg7n81hnEAo8jvsNHZbjSjwa0r8R+5Dd3bZf9KPnuscZTvL9MrXVgFBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\Microsoft-Word-Clone\\Microsoft Word Clone\\Microsoft Word Clone.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

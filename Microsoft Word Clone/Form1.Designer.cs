@@ -32,6 +32,7 @@
             TextEditor = new RichTextBox();
             Boldbtn = new Button();
             Italicbtn = new Button();
+            UnderlineBtn = new Button();
             SuspendLayout();
             // 
             // TextEditor
@@ -54,11 +55,19 @@
             Italicbtn.UseVisualStyleBackColor = true;
             Italicbtn.Click += Italicbtn_Click;
             // 
+            // UnderlineBtn
+            // 
+            resources.ApplyResources(UnderlineBtn, "UnderlineBtn");
+            UnderlineBtn.Name = "UnderlineBtn";
+            UnderlineBtn.UseVisualStyleBackColor = true;
+            UnderlineBtn.Click += UnderlineBtn_Click;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.CadetBlue;
+            Controls.Add(UnderlineBtn);
             Controls.Add(Italicbtn);
             Controls.Add(Boldbtn);
             Controls.Add(TextEditor);
@@ -72,5 +81,6 @@
         private RichTextBox TextEditor;
         private Button Boldbtn;
         private Button Italicbtn;
+        private Button UnderlineBtn;
     }
 }

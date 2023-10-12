@@ -2,18 +2,18 @@ namespace Microsoft_Word_Clone
 {
     public partial class Form1 : Form
     {
+        private FontStyle currentStyle = FontStyle.Regular; // current style (regular at start)
+        private bool bold = false;
+        private bool italic = false;
+        private bool underline = false;
+
         public Form1()
         {
             InitializeComponent();
             Boldbtn.Text = "Bold";
-
             Italicbtn.Text = "Italic";
-            
+            UnderlineBtn.Text = "Underline";
         }
-
-        public bool Bold { get; set; } = false;
-        public bool Italic { get; set; } = false;
-
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -22,43 +22,77 @@ namespace Microsoft_Word_Clone
 
         private void Boldbtn_Click(object sender, EventArgs e)
         {
-
-
-
-            if (Bold)
-            {
-                TextEditor.SelectionFont = new System.Drawing.Font(TextEditor.Font, FontStyle.Regular);
-                Bold = false;
-                Boldbtn.BackColor = System.Drawing.Color.Gainsboro;
-            }
-            else
-            {
-                TextEditor.SelectionFont = new System.Drawing.Font(TextEditor.Font, FontStyle.Bold);
-                Bold = true;
-                Boldbtn.BackColor = System.Drawing.Color.Gray;
-            }
+            ToggleBold();
         }
 
         private void Italicbtn_Click(object sender, EventArgs e)
         {
-          
+            ToggleItalic();
+        }
 
-      
-            if (Italic)
+        private void UnderlineBtn_Click(object sender, EventArgs e)
+        {
+            ToggleUnderline();
+        }
+
+        private void ToggleBold()
+        {
+            currentStyle = currentStyle ^ FontStyle.Bold; // setting bold
+
+            if (bold) // changing bold btn color
             {
-                TextEditor.SelectionFont = new System.Drawing.Font(TextEditor.Font, FontStyle.Regular);
-                Italic = false;
-            Italicbtn.BackColor = System.Drawing.Color.Gainsboro;
+                Boldbtn.BackColor = System.Drawing.Color.Gainsboro;
+                bold = false;
             }
             else
             {
-                TextEditor.SelectionFont = new System.Drawing.Font(TextEditor.Font, FontStyle.Italic);
-                Italic = true;
                 Boldbtn.BackColor = System.Drawing.Color.Gray;
+                bold = true;
             }
 
-
-
+            UpdateSelectionFont();
         }
+
+        private void ToggleItalic()
+        {
+            currentStyle = currentStyle ^ FontStyle.Italic; // setting italic
+
+            if (italic) // changing italic btn color
+            {
+                Italicbtn.BackColor = System.Drawing.Color.Gainsboro;
+                italic = false;
+            }
+            else
+            {
+                Italicbtn.BackColor = System.Drawing.Color.Gray;
+                italic = true;
+            }
+
+            UpdateSelectionFont();
+        }
+
+        private void ToggleUnderline()
+        {
+            currentStyle = currentStyle ^ FontStyle.Underline; // setting italic
+
+            if (underline) // changing italic btn color
+            {
+                UnderlineBtn.BackColor = System.Drawing.Color.Gainsboro;
+                underline = false;
+            }
+            else
+            {
+                UnderlineBtn.BackColor = System.Drawing.Color.Gray;
+                underline = true;
+            }
+
+            UpdateSelectionFont();
+        }
+
+        private void UpdateSelectionFont()
+        {
+            TextEditor.SelectionFont = new Font(TextEditor.Font, currentStyle); // setting current style to selected text
+        }
+      
     }
 }

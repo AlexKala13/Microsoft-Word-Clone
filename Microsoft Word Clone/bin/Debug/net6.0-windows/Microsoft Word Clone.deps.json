@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Microsoft Word Clone/1.0.0": {
+        "runtime": {
+          "Microsoft Word Clone.dll": {}
+        },
+        "resources": {
+          "aa-DJ/Microsoft Word Clone.resources.dll": {
+            "locale": "aa-DJ"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft Word Clone/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

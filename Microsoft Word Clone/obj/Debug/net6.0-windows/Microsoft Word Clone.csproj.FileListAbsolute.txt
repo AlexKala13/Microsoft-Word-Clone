@@ -1,0 +1,20 @@
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\bin\Debug\net6.0-windows\Microsoft Word Clone.exe
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\bin\Debug\net6.0-windows\Microsoft Word Clone.deps.json
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\bin\Debug\net6.0-windows\Microsoft Word Clone.runtimeconfig.json
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\bin\Debug\net6.0-windows\Microsoft Word Clone.dll
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\bin\Debug\net6.0-windows\Microsoft Word Clone.pdb
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\bin\Debug\net6.0-windows\aa-DJ\Microsoft Word Clone.resources.dll
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft Word Clone.csproj.AssemblyReference.cache
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft_Word_Clone.Form1.resources
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft_Word_Clone.Form1.aa-DJ.resources
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft Word Clone.csproj.GenerateResource.cache
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft Word Clone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft Word Clone.AssemblyInfoInputs.cache
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft Word Clone.AssemblyInfo.cs
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft Word Clone.csproj.CoreCompileInputs.cache
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\aa-DJ\Microsoft Word Clone.resources.dll
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft Word Clone.dll
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\refint\Microsoft Word Clone.dll
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft Word Clone.pdb
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\Microsoft Word Clone.genruntimeconfig.cache
+C:\Users\pc\Source\Repos\Microsoft-Word-Clone\Microsoft Word Clone\obj\Debug\net6.0-windows\ref\Microsoft Word Clone.dll
